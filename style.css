@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: cadetblue;
+}
+h1{
+    /* margin: 0.5%; */
+    color :aquamarine;
+    background-color: #181F1C;
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1rem rgba(0,1,0,0.6);
+
+}
+body{
+    text-align: center;
+}
+.container{
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game{
+    padding:2%;
+    height:60 vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:  center;
+   background-color: cadetblue;
+   gap:1.5vmin;
+   border-radius: 2rem;
+}
+
+.box{
+    
+    height:18vmin;
+    width: 18vmin;
+    background-color: antiquewhite;
+    font-size: 8vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+    /* color:maroon */
+}
+#rb{
+    height: 10vmin;
+    width:20vmin;
+    padding: 1 rem;
+    font-size: 1.5rem;
+    background-color:#181F1C ;
+     border: none;
+     border-radius: 0.4rem;
+     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+     color:bisque;
+}
+#newbutton{
+    height: 10vmin;
+    width:20vmin;
+    padding: 1 rem;
+    font-size: 1rem;
+    background-color:#181F1C ;
+     border: none;
+     border-radius: 0.4rem;
+     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+     color:bisque;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+.msg-containeer{
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+}
+.hide{
+    display: none;
+}
